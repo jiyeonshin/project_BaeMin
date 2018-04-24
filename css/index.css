@@ -1,0 +1,322 @@
+@charset "utf-8";
+
+.container{
+    width: 100%;
+    height: 100%;
+    
+}
+
+
+.top-fixed{
+    width: 1024px;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    margin-left: -512px;
+    z-index: 10;
+    vertical-align: baseline;
+    
+}
+
+.top-fixed #logo{
+    display: block;
+    width: 142px;
+    margin: 40px 0 0 6%;
+}
+
+#logo img{
+    display: block;
+    width: 100%;
+}
+
+.snsutil{
+    width: 50%;
+    position: absolute;
+    right: 50px;
+    bottom: 0;
+    text-align: right;
+}
+
+.snsutil li{
+   display: inline-block;
+    width: 10%;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.snsutil li:first-child{
+    margin-right: -5px;
+}
+
+p#icon-scroll{
+    position: fixed;
+    bottom: 30px;
+    left: 50%;
+    z-index: 10;
+}
+
+#section-wrap{
+    position: relative;
+}
+
+header{
+    width: 100%;
+    height: 974px;
+}
+
+.header-bg{
+    width: 100%;
+    height: 100%;
+    background: url(../img/Header/main_02@2x.jpg) no-repeat 50%;
+    background-size: cover;
+}
+
+
+.header-content{
+    width: 1024px;
+    height: 974px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.header-txt{
+    position: absolute;
+    top: 20%;
+    left: 50px;
+}
+.header-content h1{
+    width: 440px;
+}
+
+.header-content h1 img{
+    width: 100%;
+}
+.header-content a{
+    display: block;
+    width: 262px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.header-content a img{
+    width: 100%;
+}
+
+.section{
+    background: #2ac1bc;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.section-content{
+    width: 1024px;
+    height: 974px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.section-txt{
+    position: absolute;
+    top: 20%;
+    left: 50px;
+}
+
+.section-txt p.txt{
+    color: #fff;
+    padding-top: 20px;
+    padding-left: 15px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.app-download{
+    width: 200px;
+    position: absolute;
+    right: 10px;
+    top: 130px;
+}
+
+.road{
+    width: 232px;
+    position: absolute;
+    bottom: 16%;
+    right: 21%;
+}
+
+.road img{
+    width: 100%;
+}
+
+.bike{
+    width: 204px;
+    position: absolute;
+    bottom: 13%;
+    right: 17%;
+    
+}
+
+.bike img{
+    width: 100%;
+}
+
+
+.img-box{
+    width: 400px;
+    position: absolute;
+    right: 40px;
+    bottom: 0;
+}
+
+.img-box img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+.footer-wrap{
+    width: 100%;
+    height: 974px;
+}
+
+.footer-bg{
+    background: #fff;
+    padding: 8% 6%;
+    padding-top: 7%;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.footer-title{
+    width: 40%;
+    float: right;
+}
+
+.footer-title h2{
+    width: 176px;
+}
+
+.footer-title h2 img{
+    width: 100%;
+}
+
+ul.family-link{
+    width: 312px;
+    overflow: hidden;
+    margin: 7% 0;
+}
+
+.family-link li{
+    width: 142px;
+    margin-right: 0;
+    display: inline-block;
+}
+
+.family-link li img{
+    width: 100%;
+}
+
+
+ul.footer-sns-link{
+    width: 30%;
+    margin-left: -1%;
+    margin: 5% 0 5% -2%;
+    
+}
+
+
+.footer-sns-link li{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+}
+
+.footer-sns-link li img{
+    width: 100%;
+}
+
+
+.company-info{
+    font-size: 15px;
+}
+.company-info p {
+    padding-bottom: 2%;
+}
+p.address{
+   
+}
+
+p.business-info{
+    
+}
+
+span.link-business-info{
+    background: url(../img/Footer/line@2x.png) no-repeat bottom;
+    
+    background-size: 100% 4px;
+    margin-left: 10px;
+}
+
+span.link-mail{
+    background: url(../img/Footer/line@2x.png) no-repeat bottom;
+    
+     background-size: 100% 4px;
+}
+
+
+
+
+
+
+
+ul.gnb-nav{
+    position: fixed;
+    top: 50%;
+    right: 5%;
+    z-index: 10;
+}
+
+ul.gnb-nav li{
+    display: block;
+    text-align: center;
+}
+
+
+ul.gnb-nav li a{
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(../img/gnb/dotScroll02@2x.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+
+.gnb:active{
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(../img/gnb/dotSelect@2x.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+
+
+
